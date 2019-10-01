@@ -17,11 +17,8 @@ namespace Llista_de_jocs
                     "\n0. Sortir" +
                     "\n1. Buscaminas" +
                     "\n2. Solitario" +
-<<<<<<< HEAD
-                    "\n3. Conflicte del Master");
-=======
-                    "\n3. Develop conflictiu");
->>>>>>> develop
+                    "\n3. Tetris" +
+                    "\n4. Canvis company");
             } while ((opcio = Console.ReadLine()) != "0");
         }
     }
