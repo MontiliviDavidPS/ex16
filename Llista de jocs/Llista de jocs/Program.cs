@@ -10,6 +10,13 @@ namespace Llista_de_jocs
     {
         static void Main(string[] args)
         {
+            string opcio = "";
+            do
+            {
+                Console.WriteLine("MENU:" +
+                    "\n0. Sortir" +
+                    "\n1. Buscaminas");
+            } while ((opcio = Console.ReadLine()) != "0");
         }
     }
 }
