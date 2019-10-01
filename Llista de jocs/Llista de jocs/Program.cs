@@ -17,7 +17,9 @@ namespace Llista_de_jocs
                     "\n0. Sortir" +
                     "\n1. Buscaminas" +
                     "\n2. Solitario" +
-                    "\n3. Tetris");
+                    "\n3. Tetris" +
+                    "\n4. Canvis company");
+
             } while ((opcio = Console.ReadLine()) != "0");
         }
     }
