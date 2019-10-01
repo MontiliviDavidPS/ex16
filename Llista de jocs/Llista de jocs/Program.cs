@@ -15,7 +15,8 @@ namespace Llista_de_jocs
             {
                 Console.WriteLine("MENU:" +
                     "\n0. Sortir" +
-                    "\n1. Buscaminas");
+                    "\n1. Buscaminas" +
+                    "\n2. Solitario");
             } while ((opcio = Console.ReadLine()) != "0");
         }
     }
